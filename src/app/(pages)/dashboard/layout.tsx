@@ -7,10 +7,10 @@ export default function Layout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className="min-h-full flex">
+        <div className="min-h-full flex gap-4">
             <NavLinks/>
 
-            <div className="p-4 bg-primary text-black  w-screen">
+            <div className="p-4  bg-primary text-black  w-screen">
                 {children}
             </div> 
         </div>
